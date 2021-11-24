@@ -96,12 +96,12 @@ function setup() {
   rope = new Rope(8,{x:40,y:30});
   rope2 = new Rope(7,{x:370,y:40});
   rope3 = new Rope(4,{x:400,y:225});
-  ground = new Ground(200,ch-20,600,20);
+  ground = new Ground(200,ch,600,20);
 
   blink.frameDelay = 20;
   eat.frameDelay = 20;
 
-  bunny = createSprite(120,ch-20,100,100);
+  bunny = createSprite(120,ch-150,100,100);
   bunny.scale = 0.2;
 
   bunny.addAnimation('blinking',blink);
